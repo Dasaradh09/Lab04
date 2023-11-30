@@ -1,0 +1,410 @@
+/******************** Header style  ********************/
+
+.hambarge-bars {
+  color: #fff;
+}
+.hambar-btn {
+  display: none;
+}
+.cancel-btn {
+  display: none;
+}
+
+/*######################## Search container Styles ####################*/
+
+.search-bg-container {
+  background-image: url("./Images/vecteezy_riomaggiore-the-first-city-of-the-cique-terre-in-liguria_2169571.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .search-bg-container {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+.search-container {
+  margin-left: 8%;
+}
+@media screen and (max-width: 767px) {
+  .search-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+.welcome-heading {
+  margin: 0px;
+  margin-top: -5px;
+  font-weight: 900;
+  font-size: 2.3rem;
+  margin-left: 350px;
+  color: #eb0e5f;
+  font-family: inherit;
+}
+@media screen and (max-width: 767px) {
+  .welcome-heading {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: rgb(255, 170, 0);
+  }
+}
+.welcome-description {
+  margin: 10px 0px 4px;
+  font-size: 24px;
+  margin-left: 350px;
+  color: rgb(87 9 9);
+  font-style: italic;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  .welcome-description {
+    font-size: 11px;
+    color: #fff;
+  }
+}
+.search-box {
+  padding: 10px;
+  width: 40%;
+  margin-left: 370px;
+  border: none;
+  outline: none;
+  margin-top: 1.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-right: 1rem;
+  border-radius: 6px;
+}
+@media screen and (max-width: 767px) {
+  .search-box {
+    padding: 7px;
+  }
+}
+.search-btn {
+  background-color: #ef9338;
+  height: 34px;
+  margin-top: 9px;
+  margin-left: 553px;
+  width: 80px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  font-family: monospace;
+  border-radius: 6px;
+}
+.search-btn:hover {
+  color: darkolivegreen;
+  transition: 800ms;
+}
+@media screen and (max-width: 767px) {
+  .search-btn {
+    height: 28px;
+    width: 65px;
+  }
+}
+.find-my-location-btn {
+  height: 32px;
+  padding: 0rem 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #dda8ad;
+  margin-top: 15px;
+  margin-left: 515px;
+  color: #573030;
+  font-family: monospace;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 3s;
+  transition-property: backgroud-color;
+  transition-duration: 3s,2s;
+}
+.find-my-location-btn:hover {
+  opacity: 1;
+  background-color: #d2cdcd;
+  transition: 3s;
+}
+@media screen and (max-width: 767px) {
+  .find-my-location-btn {
+    height: 28px;
+    margin-top: 1rem;
+  }
+}
+
+/* ----------------------Content container styles------------------------*/
+
+.content-bg-container {
+  background-color: #eaaa02;
+}
+.content-container {
+  width: 85%;
+  margin: auto;
+}
+.content-heading {
+  color: #0d4a54a6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  margin-top: 0px;
+  padding-top: 15px;
+}
+.activities-photography-travel-farming-container {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .activities-photography-travel-farming-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.activities-photography-container {
+  margin-right: 1.5rem;
+}
+.description {
+  color: #ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 2;
+}
+.last-description {
+  padding-bottom: 4rem;
+  margin: 5px;
+  text-align: -webkit-center;
+}
+
+/*========================= Footer container styles  =============================*/
+
+.footer-container {
+  background-image: url("./Images/istockphoto-1211957420-1024x1024.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy-right-description {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  opacity: 1;
+  margin-top: 8rem;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Explorer Container Styles~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+
+.explore-container {
+  background-color: #eca556cf;
+  padding: 3rem 4rem;
+}
+@media screen and (max-width: 767px) {
+  .explore-container {
+    padding: 1.5rem 2rem;
+  }
+}
+.sunrise-sunset-heading {
+  margin: 0px;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .sunrise-sunset-heading {
+    font-size: 25px;
+  }
+}
+.sunrise-sunset-description {
+  color: #7a9fd0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.sunrise-and-sunset-btn-container {
+  text-align: end;
+}
+.btn {
+  height: 28px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.sunrise-btn {
+  background-color: #ce796a;
+  color: beige;
+  opacity: 1;
+  
+}
+.sunrise-btn:hover {
+  opacity: 1;
+}
+.sunset-btn {
+  background-color: black;
+  color: #fff;
+  opacity: 0.7;
+}
+.sunset-btn:hover {
+  opacity: 1;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!! Sunrise and Sunset Containers Styeles!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.sunrise-container {
+  margin-top: 3rem;
+  /* border: 1px solid green; */
+  /* position: relative; */
+}
+@media screen and (max-width: 767px) {
+  .sunrise-container {
+    margin-top: 1rem;
+  }
+}
+/* .sunrise-bg-image {
+  width: 100%;
+  opacity: 0.5;
+  border-radius: 8px;
+  height: 500px;
+}
+.sunrise-image-contaienr {
+  position: relative;
+  overflow: hidden;
+} */
+.background {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../../Images/sunrise-bg.jpg");
+}
+.sunrise-background {
+  background: linear-gradient(
+    #292626,
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("../../Images/sunrise-bg.jpg");
+}
+.sunset-background {
+  background: linear-gradient(
+    rgb(95 183 218), 
+    rgb(223 111 0)),
+    url("../../Images/sunset-bg.jpg");
+}
+.sunrise-content-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+
+.day-heading {
+  color: #ffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  margin: 0px;
+  opacity: 1;
+}
+@media screen and (max-width: 767px) {
+  .day-heading {
+    font-size: 22px;
+  }
+}
+.date {
+  font-size: 12px;
+  font-weight: 800;
+  font-style: italic;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sun-image {
+  width: 130px;
+}
+.day-type-heading {
+  font-size: 24px;
+  margin: 0px;
+  margin-top: 20px;
+  font-weight: 800;
+  font-style: italic;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.day-type-time {
+  font-size: 24px;
+  margin: 0px;
+  /* margin-top: 20px; */
+  font-weight: 800;
+  font-style: italic;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.first-day-type-time {
+  font-size: 16px;
+  margin: 0px;
+  margin-top: 5px;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.day-type-description {
+  font-size: 16px;
+  margin-top: 35px;
+  font-weight: 600;
+  font-style: italic;
+  color: #d2cdcd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.day-length-solar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.day-length {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.solar-noon {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.timezone {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+/* ++++++++++++++++++++++++++++ Functionality Style +++++++++++++++++ */
+.sunrise-main-container {
+  display: none;
+}
+

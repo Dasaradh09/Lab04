@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sunrise_sunset_app</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <nav class="nav-header">
+        <div class="nav-content">
+            <div  class="nav-mobile-btn" id="menuBtn">
+            </div>
+      </nav>
+      <div class="search-bg-container">
+        <div class="search-container">
+          <h1 class="welcome-heading">Welcome to Sunrise Sunset Dashboard</h1>
+          <p class="welcome-description">
+            Enter the location to know sunsire and sunset timings.
+          </p>
+          <input
+            type="search"
+            name="search"
+            class="search-box"
+            placeholder="Enter place name to know more."
+            value=""
+            id="searchField"
+          />
+          <button type="button" class="search-btn" id="searchButton">
+            Search
+          </button>
+          <br />
+          <button
+            type="button"
+            class="find-my-location-btn"
+            id="findMyLocationBtn"
+          >
+            Find my location
+          </button>
+        </div>
+      </div>
+      <div class="content-bg-container" id="contentContainer">
+        <div class="content-container">
+          <h4 class="content-heading">
+          </h4>
+          <p class="description">
+          </p>
+            </div>
+          </div>
+          <p class="description last-description">
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
